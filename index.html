@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>A Space Website</title>
+     <style>
+  .custom-carousel{
+width:70%;
+ height:700px
+  }
+  .carousel-inner img {
+    width: 100%;
+    height:700px
+  }
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+    height:700px
+  }
+  #dropdown{
+    background-color: black;
+  }
+  .litem{
+    padding: 15px;
+    font-size: large;
+  }
+  #atag{
+    color: blue;
+  }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">A Space Website</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="https://www.space.com/">The search engine for Space</a>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Materials <span class="caret"></span></a>
+                <ul class="dropdown-menu" id="dropdown">
+                  <li class="litem"><a href="https://www.telescopesplus.com/pages/our-top-10-must-haves-for-a-night-of-stargazing" id="atag">10 must-haves for stargazing</a></li>
+                  <li class="litem"><a href="https://www.pbs.org/wgbh/nova/labs/lab/exoplanet/" id="atag">Space game for kids</a></li>
+                  <li class="litem"><a href="https://www.bls.gov/careeroutlook/2016/article/careers-in-space.htm" id="atag">Careers related to space</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Other websites made by me <span class="caret"></span></a>
+                <ul class="dropdown-menu" id="dropdown">
+                  <li class="litem"><a href="https://vedantshah2011.github.io/Mini-Youtube/" id="atag">Mini Youtube</a></li>
+                  <li class="litem"><a href="https://vedantshah2011.github.io/The-Solar-System/" id="atag">All About the Solar System</a></li>
+        </div>
+      </nav>
+
+
+
+
+      <div class="container">  
+        <Center>
+        <div id="myCarousel" class="carousel slide custom-carousel" data-ride="carousel" data-interval
+        ="500">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" id="carousel-div">
+            <div class="item active">
+              <img src="https://www.sciencenews.org/wp-content/uploads/2023/02/020923_LG_quenched-galaxy_feat-1030x580.jpg" alt="James Webb Space Telescope">
+            </div>
+      
+            <div class="item">
+              <img src="https://www.cnet.com/a/img/resize/07eb3e2b07da6521378c5222f3040e7eaa4a96e5/hub/2022/10/19/b5925c18-5f1f-48d7-aa47-b5091a5670d6/stsci-01gf49bhzj1wx8w803281hrbcw.jpg?auto=webp&fit=crop&height=1200&width=1200" alt="Pillars of Creation(JWST)">
+            </div>
+          
+            <div class="item">
+              <img src="https://cdn.mos.cms.futurecdn.net/yCPyoZDQBBcXikqxkeW2jJ-1200-80.jpg" alt="Earth">
+            </div>
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      
+</body>
+</html>
